@@ -22,7 +22,7 @@ conn = psycopg2.connect(
     host=os.getenv('POSTGRES_HOST'),
     port=os.getenv('POSTGRES_PORT')
 )
-# init_user_db(conn)
+init_user_db(conn)
 init_friend_db(conn)
 init_posts_db(conn)
 # cur = conn.cursor()
@@ -31,7 +31,7 @@ init_posts_db(conn)
 #     print(cur.fetchall(), file=sys.stderr)
 # except Exception:
 #     exit(1337)
-app.config['SECRET_KEY'] = 'eornvoqerbvbqoqJbvwer880'
+app.config['SECRET_KEY'] = 'nigga'
 
 
 @app.route('/', methods=["GET", "POST"])
