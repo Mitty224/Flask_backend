@@ -20,7 +20,7 @@ export POSTGRES_PASSWORD='your secret (no) password'
 export POSTGRES_HOST='localhost'
 export POSTGRES_PORT='5432'
 ```
-(check my code idk)
+(check my code idk) 
 # files 
 there is 4 files with different databases.
 i made a one-to-one connect using PostgreSQL.
